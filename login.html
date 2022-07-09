@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(116, 118, 224);
+        }
+        #container{
+            width: 30%;
+            height: 700px;
+            border: 2px solid black;
+            margin: auto;
+            background-color: white;
+            border-radius: 15px;
+            padding: 35px;
+            margin-top: 40px;
+        }
+        #container>div:first-child{
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #container>div{
+            padding: 30px;
+        }
+        #container input{
+            font-size: 30px;
+        }
+        #container>div:nth-child(4){
+            width: 75%;
+            background-color: rgb(116, 118, 224); 
+            color:white;
+            margin-left: 34px;
+            padding: 15px;
+            margin-top: 25px;
+            
+        }
+        #container h2{
+            font-size: 30px;
+            margin: auto;
+            text-align: center;
+        }
+        #last_sec{
+            display: flex;
+            gap: 7px;
+            font-size: 25px;
+            margin-left: 130px;
+            margin-top: 50px;
+           
+        }
+        #last_sec>div:last-child{
+            color: blue;
+        }
+        #last{
+            display: flex;
+            gap: 7px;
+            font-size: 25px;
+            margin-left:50px;
+            margin-top: -50px;
+           
+        }
+        #last>div:last-child{
+            color: blue;
+        }
+
+
+
+    </style>
+    </head>
+    <body>
+    <div id="container">
+        <div>Login</div>
+       <div> <input type="text" placeholder="Email"></div>
+       <div><input type="password" name="" id="" placeholder="password"></div>
+       <div><h2>Login</h2></div>
+       <div id="last_sec">
+        <div>Forget</div>
+        <div>Password?</div>
+       </div> 
+       <div id="last">
+        <div>Don't have an account?</div>
+        <div>Sign up</div>
+       </div>             
+
+    </div>
+        
+    </body>
+    </html>
